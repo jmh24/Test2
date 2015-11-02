@@ -3,8 +3,12 @@ Student: Jaclyn
 Honor Code: I pledge that this code represents my own work: Jaclyn
 */
 
+body{
+	font-size: 14px;
+}
+
 #aside {
-	width:16em;
+		width:16em;
     float:right;
     margin-right:50px;
 }
@@ -13,34 +17,20 @@ Honor Code: I pledge that this code represents my own work: Jaclyn
 	display:none;
 }
 
+.name {
+	font-weight:bold;
+	text-decoration:underline;
+	font-family:sans-serif;
+}
+
 .profile {
-	padding:5px;
+	padding-right:5px;
+	padding-bottom: 5px;
 	width:75px;
 	height:75px;
 	float:left;
 }
 
-.inigo h2 {
-	font-family:sans-serif;
-	text-decoration:underline;
-	font-size:15px;
-	margin:0px;
-	width:40px;
-}
-
-.inigo p {
-	padding-bottom:5px;
-}
-
-.rugen h2 {
-	font-family:sans-serif;
-	text-decoration:underline;
-	font-size:15px;
-	margin:0px;
-	width:98px;
-}
-
 .rugen p {
 	background-color:#DDDDDD;
-	padding-bottom:5px;
 }
